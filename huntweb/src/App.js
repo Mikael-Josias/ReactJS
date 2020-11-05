@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
+import api from './services/api';
 
+import './style.css';
 import Header from './components/Header';
+import Main from './pages/main';
 
 const App = () => (
   <div className="App">
-    <h1>Hello Rocketseat</h1>
+    <Header />
+    <Main />
   </div>
 );
 
